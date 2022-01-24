@@ -26,6 +26,13 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'bootstrap-sass', '3.4.1'
 
+# 認可機構
+gem 'pundit'
+
+# 認証機能の使用
+gem 'devise'
+gem 'devise_token_auth'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'sqlite3', '1.4.1'

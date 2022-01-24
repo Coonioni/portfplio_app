@@ -1,4 +1,7 @@
 class LikesController < ApplicationController
+
+  include Pundit
+  
   def create
     post = Post.find(param[:post_id])
     authorize Like.new(user_id: current_user.id)

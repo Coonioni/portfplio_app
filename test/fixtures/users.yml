@@ -5,11 +5,9 @@ one:
   email: MyString
   address: MyString
   age: 1
-  evaluation: 1
 
 two:
   name: MyString
   email: MyString
   address: MyString
   age: 1
-  evaluation: 1

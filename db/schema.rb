@@ -17,7 +17,6 @@ ActiveRecord::Schema.define(version: 2022_01_20_163540) do
     t.string "email"
     t.string "address"
     t.integer "age"
-    t.integer "evaluation"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
